@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" ng-app="">
+<head>
+    <meta charset="UTF-8">
+    <title>ngMadLibs</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+</head>
+<body ng-init>
+
+<header>
+    <div class="logo"><img src="img/mad-lib-happy-face.png"/></div>
+    <div class="main-header"><img src="img/ng-mad-libs-logo.png"/></div>
+</header>
+
+<section class="word-section">
+    <input type="text" ng-model="female_name" placeholder="Female Name"/>
+    <input type="text" ng-model="job_title" placeholder="Job Title"/>
+    <input type="text" ng-model="tedious_task" placeholder="Tedious Task"/>
+    <input type="text" ng-model="dirty_task" placeholder="Dirty Task"/>
+    <input type="text" ng-model="celebrity" placeholder="Celebrity"/>
+    <input type="text" ng-model="useless_skill" placeholder="Useless Skill"/>
+    <input type="text" ng-model="useless_skill" placeholder="Adjective"/>
+    <input type="text" ng-model="obnoxious_celebrity" placeholder="Obnoxious Celebrity"/>
+    <input type="text" ng-model="huge_number" placeholder="Huge Number"/>
+</section>
+
+<section>
+    <p>
+        {{female_name}} was a {{job_title}} who loved technology. Although she loved parts of her job, she absolutely hated  {{tedious_task}} and {{dirty_task}}. So, {{female_name}} met with her life mentor {{celebrity}} who told her to learn how to {{useless_skill}} with Thinkful. Thinkful didn't offer a course on {{useless_skill}} so she studied programming instead. 
+    </p>
+    <p>
+        What a great decision! With her new skills, {{female_name}} built a(n) {{adjective}} robot named {{obnoxiuous_celebrtity}} that not only loved {{dirty_task}} but did it {{huge_number}} faster. 
+    </p>
+</section>
+
+</body>
+</html>
